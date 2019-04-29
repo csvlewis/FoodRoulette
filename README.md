@@ -79,7 +79,7 @@ Then they will be redirected to a survey results page where they can see the vot
 
 Each friend whose phone number was listed in the survey creation form will receive a text describing the restaurant voting options with directions on how to vote. After they respond with a 1, 2, or 3, they will receive a confirmation text with a link to the same voting results page that the user sees.
 
-![Sample Voting Texts](/images/Text.png)
+![Sample Voting Texts](/images/Text.png =250x250)
 
 After all votes for the survey have been received or the original user manually ends the survey, the survey results page will update to show the winning restaurant.
 
