@@ -55,7 +55,7 @@ After doing so, you will be directed to the home page, where your browser may as
 
 If you want a restaurant recommendation, you can type a location in the search bar and click ‘Roulette Now’. You will be taken to a new page where a selected restaurant is displayed.
 
-[Roulette Now Page]
+![Roulette Now Page](/images/SingleRoulette.png?raw=true)
 
 On this page you can see some basic information about the restaurant. From this page you can do a few things. You can click the name of the restaurant to open a tab with that restaurant’s Yelp page. You can click ‘Take Me There!’ to get Google Maps directions from your search location to the restaurant. Finally, you can click ‘Roulette Again’ to get another restaurant recommendation.
 
@@ -63,19 +63,19 @@ If you want to send out a group survey, you can go back to the main page, type a
 
 You will be taken to a new page where three selected restaurants are displayed. Each restaurant’s name is a link to that restaurant’s Yelp page, and you can click “Roulette Again” to get three new recommendations.
 
-[Group Roulette Page]
+![Group Roulette Page](/images/GroupRoulette.png?raw=true)
 
 If you click “Send to Friends”, you will be taken to a form where you can enter some information to create a survey. After entering your name, your friend’s phone numbers separated by commas, an event name, and an optional event time, a survey for the three restaurant recommendations will be sent out to each phone number that was entered.
 
-[Survey Form Page]
+![Survey Form Page](/images/SurveyForm.png?raw=true)
 
 The user who created the survey will be presented with a page where they can vote for a restaurant in the survey.
 
-[User Voting Page]
+![User Voting Page](/images/UserVote.png?raw=true)
 
 Then they will be redirected to a survey results page where they can see the voting results for the survey updating as their friends submit votes.
 
-[Survey Results Page (active)]
+![Survey Results Page (active)](/images/SurveyResultsActive.png?raw=true)
 
 Each friend whose phone number was listed in the survey creation form will receive a text describing the restaurant voting options with directions on how to vote. After they respond with a 1, 2, or 3, they will receive a confirmation text with a link to the same voting results page that the user sees.
 
@@ -83,7 +83,7 @@ Each friend whose phone number was listed in the survey creation form will recei
 
 After all votes for the survey have been received or the original user manually ends the survey, the survey results page will update to show the winning restaurant.
 
-[Survey Results Page (closed)]
+![Survey Results Page (closed)](/images/SurveyResultsClosed.png?raw=true)
 
 Each friend will also get a text message letting them know that the survey has ended and informing them of the winning restaurant.
 
