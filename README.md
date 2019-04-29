@@ -45,35 +45,47 @@ The API_URL is needed for an internal api endpoint uri that is different in prod
 
 # Site Functionality
 
-When you visit the site for the first time, you will be asked to login by connecting to your Google account (pic of login)
+When you visit the site for the first time, you will be asked to login by connecting to your Google account.
 
-After doing so, you will be directed to the home page, where your browser may ask to use your current location. If you do so, that location will be used as your default location in searches. At any point, you can access the nav bar to return to the home page, view the site’s ‘About’ section, or visit your profile page which will keep track of your last few restaurant visits. 
+[Google OAuth Login Page]
 
-If you want a restaurant recommendation, you can type a location in the search bar and click ‘Roulette Now’. You will be taken to a new page where a selected restaurant is displayed. 
+After doing so, you will be directed to the home page, where your browser may ask to use your current location. If you do so, that location will be used as your default location in searches. At any point, you can access the nav bar to return to the home page, view the site’s ‘About’ section, or visit your profile page which will keep track of your last few restaurant visits.
 
-On this page you can see some basic information about the restaurant. From this page you can do a few things. You can click the name of the restaurant to open a tab with that restaurant’s Yelp page:
+[Home Page]
 
-You can click ‘Take Me There!’ to get Google Maps directions from your search location to the restaurant:
+If you want a restaurant recommendation, you can type a location in the search bar and click ‘Roulette Now’. You will be taken to a new page where a selected restaurant is displayed.
 
-Or you can click ‘Roulette Again’ to get another restaurant recommendation.
+[Roulette Now Page]
+
+On this page you can see some basic information about the restaurant. From this page you can do a few things. You can click the name of the restaurant to open a tab with that restaurant’s Yelp page. You can click ‘Take Me There!’ to get Google Maps directions from your search location to the restaurant. Finally, you can click ‘Roulette Again’ to get another restaurant recommendation.
 
 If you want to send out a group survey, you can go back to the main page, type a search location into the search bar and click “Survey Them!”
 
-You will be taken to a new page where three selected restaurants are displayed. Each restaurant’s name is a link to that restaurant’s Yelp page, and you can click “Roulette Again” to get three new recommendations. 
+You will be taken to a new page where three selected restaurants are displayed. Each restaurant’s name is a link to that restaurant’s Yelp page, and you can click “Roulette Again” to get three new recommendations.
 
-If you click “Send to Friends”, you will be taken to a form where you can enter some information to create a survey. After entering your name, your friend’s phone numbers separated by commas, an event name, and an optional event time, a survey for the three restaurant recommendations will be sent out to each phone number that was entered. 
+[Group Roulette Page]
 
-The user who created the survey will be presented with a page where they can vote for a restaurant in the survey. 
+If you click “Send to Friends”, you will be taken to a form where you can enter some information to create a survey. After entering your name, your friend’s phone numbers separated by commas, an event name, and an optional event time, a survey for the three restaurant recommendations will be sent out to each phone number that was entered.
+
+[Survey Form Page]
+
+The user who created the survey will be presented with a page where they can vote for a restaurant in the survey.
+
+[User Voting Page]
 
 Then they will be redirected to a survey results page where they can see the voting results for the survey updating as their friends submit votes.
 
-Each friend whose phone number was listed in the survey creation form will receive a text describing the restaurant voting options with directions on how to vote. 
+[Survey Results Page (active)]
 
-After they respond with a 1, 2, or 3, they will receive a confirmation text with a link to the same voting results page that the user sees.
+Each friend whose phone number was listed in the survey creation form will receive a text describing the restaurant voting options with directions on how to vote. After they respond with a 1, 2, or 3, they will receive a confirmation text with a link to the same voting results page that the user sees.
 
-After all votes for the survey have been received or the original user manually ends the survey, the survey results page will update to show the winner and give options to get directions to the restaurant.
+[Sample Voting Texts]
 
-Each user will also get a text message letting them know that the survey has ended and informing them of the winning restaurant.
+After all votes for the survey have been received or the original user manually ends the survey, the survey results page will update to show the winning restaurant.
+
+[Survey Results Page (closed)]
+
+Each friend will also get a text message letting them know that the survey has ended and informing them of the winning restaurant.
 
 # Testing
 
@@ -89,7 +101,7 @@ will run the item model test that is found in that file on line 28.
 
 # Live Site
 
-- tundra-59037.herokuapp.com
+- https://calm-tundra-59037.herokuapp.com/
 
 # Built Using
 - Ruby on Rails
