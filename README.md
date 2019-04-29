@@ -47,11 +47,11 @@ The API_URL is needed for an internal api endpoint uri that is different in prod
 
 When you visit the site for the first time, you will be asked to login by connecting to your Google account.
 
-[Google OAuth Login Page]
+![Google OAuth Login Page](/images/OAuth.png?raw=true)
 
 After doing so, you will be directed to the home page, where your browser may ask to use your current location. If you do so, that location will be used as your default location in searches. At any point, you can access the nav bar to return to the home page, view the site’s ‘About’ section, or visit your profile page which will keep track of your last few restaurant visits.
 
-[Home Page]
+![Home Page](/images/Home.png?raw=true)
 
 If you want a restaurant recommendation, you can type a location in the search bar and click ‘Roulette Now’. You will be taken to a new page where a selected restaurant is displayed.
 
