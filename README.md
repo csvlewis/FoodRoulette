@@ -101,7 +101,7 @@ will run the item model test that is found in that file on line 28.
 
 # Live Site
 
-- https://calm-tundra-59037.herokuapp.com/
+- http://www.foodrouletteapp.com/
 
 # Built Using
 - Ruby on Rails
@@ -112,3 +112,6 @@ will run the item model test that is found in that file on line 28.
 
 # Created By
 - [Chris Lewis](https://github.com/csvlewis)
+- [Julia Marco](https://github.com/juliamarco)
+- [Zach Nager](https://github.com/nagerz)
+- [April Dagonese](https://github.com/aprildagonese)
